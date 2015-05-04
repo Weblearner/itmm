@@ -1,0 +1,103 @@
+
+
+::-moz-selection {
+	background: #2EAC00;
+	text-shadow: none;
+	color: white;
+}
+
+::selection {
+	background: #2EAC00;
+	text-shadow: none;
+	color: white;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+	color: rgb(213, 208, 206);
+}
+
+body {
+	background-color: rgb(25, 25, 25);
+	background-image: url(../../../img/brillant-dark.png);
+}
+
+
+.top-ribbon {
+	background-color: #2EAC00;
+}
+
+li a {
+	color: white;
+	border : none;
+
+}
+
+li a:hover {
+
+	color: white;
+	border :none;
+}
+
+footer {
+	background: black;
+}
+
+a {
+	color:#2EAC00;
+	border-bottom: dotted 1px #2EAC00;
+}
+
+
+
+a:hover {
+	color: #3AD900;
+	border-bottom: dotted 1px #3AD900;
+}
+
+.sparator {
+	border-bottom: dashed 2px rgb(39, 37, 36);
+}
+
+blockquote {
+	border-left: solid 1px rgb(226, 221, 219);
+}
+
+.sidebar-font {
+	color: rgb(39, 37, 36);
+}
+
+@media all and (max-width:800px){
+	.sidebar-font {
+		color: rgb(164, 157, 154);
+	}
+}
+
+figcaption,
+blockquote,
+.meta-info-font,
+.site-footer-font,
+.tagline-font {
+	color: rgb(136, 126, 123);
+}
+
+
+
+.home a {
+	color: rgb(170, 167, 166);
+}
+
+.home a:hover {
+	color: rgb(255, 255, 255);
+}
+
+
+
+ .entry-title-font a,
+ .category,
+ .category:hover {
+	color: rgb(236, 231, 229);
+}
